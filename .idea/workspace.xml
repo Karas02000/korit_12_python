@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de949d78-7c3a-4d3b-be01-393f91bd3727" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman_oop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman_oop/hangman10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman_oop/hangman6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman_oop/hangman7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman_oop/hangman8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman_oop/hangman9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman_oop/hangman_arts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05_hangman/hangman_oop/hangman_word_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06_collections/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05_hangman/hangman1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch05_hangman/hangman1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05_hangman/hangman4.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch05_hangman/hangman4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +45,14 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.hangman1.executor": "Run",
+    "Python.hangman10.executor": "Run",
     "Python.hangman2.executor": "Run",
     "Python.hangman3.executor": "Run",
+    "Python.hangman4.executor": "Run",
+    "Python.hangman5.executor": "Run",
+    "Python.hangman6.executor": "Run",
+    "Python.hangman8.executor": "Run",
+    "Python.hangman9.executor": "Run",
     "Python.main.executor": "Run",
     "Python.main_while.executor": "Run",
     "Python.mian.executor": "Run",
@@ -50,6 +64,11 @@
     "settings.editor.selected.configurable": "preferences.sourceCode.Markdown"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\Desktop\Projects\Python\korit_12_python" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="hangman1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="korit_12_python" />
@@ -118,5 +137,16 @@
       <updated>1769732070371</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="python-line">
+          <url>file://$PROJECT_DIR$/ch05_hangman/hangman5.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

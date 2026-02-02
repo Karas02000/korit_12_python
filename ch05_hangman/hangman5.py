@@ -1,0 +1,144 @@
+import random
+
+logo = '''
+ _   _    _    _   _  ____ __  __    _    _   _ 
+| | | |  / \\  | \\ | |/ ___|  \\/  |  / \\  | \\ | |
+| |_| | / _ \\ |  \\| | |  _| |\\/| | / _ \\ |  \\| |
+|  _  |/ ___ \\| |\\  | |_| | |  | |/ ___ \\| |\\  |
+|_| |_/_/   \\_\\_| \\_|\\____|_|  |_/_/   \\_\\_| \\_|
+ '''
+
+word_list = [
+    "apple", "beach", "brain", "bread", "brush", "chair", "chest", "chord", "click", "clock",
+    "cloud", "dance", "diary", "drink", "earth", "feast", "field", "flame", "glass", "grape",
+    "green", "guard", "heart", "house", "juice", "light", "lemon", "magic", "music", "night",
+    "ocean", "paint", "paper", "party", "phone", "piano", "pilot", "plant", "plate", "queen",
+    "radio", "river", "robot", "shirt", "shoes", "smile", "snake", "space", "spoon", "storm",
+    "table", "tiger", "toast", "touch", "train", "truck", "voice", "water", "watch", "whale",
+    "world", "write", "zebra", "actor", "alarm", "anger", "angle", "apple", "armor", "arrow",
+    "asset", "atlas", "audio", "audit", "award", "bacon", "badge", "baker", "ballot", "basin",
+    "batch", "beard", "beast", "berry", "birth", "blade", "blast", "blend", "block", "blood",
+    "board", "boast", "bonus", "boost", "booth", "brain", "brake", "brass", "brave", "bread",
+    "bribe", "brick", "bride", "brief", "brisk", "broad", "broom", "brown", "brush", "buddy",
+    "build", "bunch", "buyer", "cabin", "cable", "camel", "candy", "canoe", "cargo", "carve",
+    "catch", "cause", "chain", "chalk", "chaos", "charm", "chart", "chase", "cheap", "check",
+    "cheek", "cheer", "chess", "chest", "chief", "child", "chill", "choir", "chunk", "cigar",
+    "civic", "civil", "claim", "clash", "clasp", "class", "clean", "clear", "clerk", "click",
+    "cliff", "climb", "cloak", "clock", "close", "cloth", "cloud", "clown", "coach", "coast",
+    "cobra", "color", "comet", "comic", "couch", "cough", "count", "court", "cover", "crack",
+    "craft", "crane", "crash", "crawl", "crazy", "cream", "creed", "creek", "crest", "crime",
+    "crisp", "cross", "crowd", "crown", "crude", "cruel", "crush", "crust", "curve", "cycle",
+    "dairy", "dance", "death", "decor", "delay", "delta", "demon", "dense", "depot", "depth",
+    "derby", "diary", "digit", "dirty", "ditch", "diver", "dogma", "dolls", "donor", "donut",
+    "doubt", "dough", "drain", "drama", "dream", "dress", "drift", "drill", "drink", "drive",
+    "drone", "drove", "drunk", "duchy", "dumbo", "dusty", "eager", "eagle", "early", "earth",
+    "echoes", "eight", "elbow", "elder", "elect", "elite", "empty", "enemy", "enjoy", "entry",
+    "equal", "error", "essay", "event", "every", "exact", "exist", "extra", "faint", "fairy",
+    "faith", "false", "fancy", "fault", "favor", "feast", "fence", "ferry", "fetch", "fever",
+    "field", "fifth", "fifty", "fight", "final", "first", "flair", "flame", "flash", "flask",
+    "fleet", "flesh", "float", "flock", "flood", "floor", "flour", "flowy", "fluid", "flush",
+    "flute", "focus", "force", "forge", "forth", "forty", "forum", "found", "frame", "fraud",
+    "fresh", "front", "frost", "frown", "fruit", "funny", "gamma", "gauge", "genre", "ghost",
+    "giant", "glass", "globe", "glory", "gloss", "glove", "grace", "grade", "grain", "grand",
+    "grant", "graph", "grasp", "grass", "grave", "great", "greed", "green", "greet", "grief",
+    "grill", "grind", "groan", "gross", "group", "guard", "guess", "guest", "guide", "guilt",
+    "habit", "happy", "harsh", "heart", "heavy", "hello", "honey", "honor", "horse", "hotel",
+    "house", "human", "humid", "humor", "hurry", "ideal", "idiom", "image", "index", "inner",
+    "input", "irony", "issue", "ivory", "jacket", "joint", "judge", "juice", "jumbo", "juror",
+    "karma", "kayak", "kebab", "khaki", "kneel", "knife", "knock", "label", "labor", "larva",
+    "laser", "latch", "laugh", "layer", "leafy", "lease", "least", "lemon", "level", "lever",
+    "light", "limit", "linen", "liner", "liver", "lobby", "local", "logic", "loose", "lorry",
+    "lotus", "lover", "loyal", "lucky", "lunar", "lunch", "luxury", "lyric", "macro", "magic",
+    "major", "maker", "mango", "manor", "maple", "march", "marry", "match", "maxim", "medal",
+    "media", "melon", "merit", "metal", "meter", "midst", "might", "minor", "minus", "mixed"
+]
+chosen_word = random.choice(word_list)
+
+display = []
+for letter in chosen_word:
+    display.append('_')
+
+stages = ['''
+    +----+
+    |    |
+         |
+         |
+         |
+=============
+''', '''
+    +----+
+    |    |
+    0    |
+         |
+         |
+         |
+=============
+''', '''
+    +----+
+    |    |
+    0    |
+    |    |
+         |
+         |
+=============
+''', '''
+    +----+
+    |    |
+    0    |
+    |\\   |
+         |
+         |
+=============
+''', '''
+    +----+
+    |    |
+    0    |
+   /|\\   |
+         |
+         |
+=============
+''', '''
+    +----+
+    |    |
+    0    |
+   /|\\   |
+   /     |
+         |
+=============
+''', '''
+    +----+
+    |    |
+    0    |
+   /|\\   |
+   / \\   |
+         |
+=============
+''']
+live = 0
+win = True
+chance = len(stages)
+print(logo)
+
+while True:
+    print(stages[live])
+    print(' '.join(display))
+    guess = input('알파벳을 입력하세요 >>> ').lower()
+    if guess in chosen_word:
+        for i in range(len(chosen_word)):
+            if chosen_word[i] == guess:
+                display[i] = chosen_word[i]
+    else:
+        live += 1
+        chance -= 1
+    if '_' not in display:
+        print(stages[live])
+        break
+    if stages[live] == stages[-1]:
+        print(stages[live])
+        win = False
+        break
+    print(f'앞으로 기회가 {chance-1}번 남았습니다.')
+if win:
+    print(f'정답입니다.!! 답은 {' '.join(display)} 입니다.')
+else:
+    print(f'오답입니다. 답은 {' '.join(chosen_word)} 였습니다.')

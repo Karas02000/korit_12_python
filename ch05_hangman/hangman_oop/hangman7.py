@@ -1,72 +1,17 @@
 import random
+from hangman_arts import *
+from hangman_word_list import word_list
 
-word_list = ['apple', 'garden', 'flavor','trouble','market','country',
-             'family','moment','system','company','problem','butter']
 chosen_word = random.choice(word_list)
 
 display = []
 for letter in chosen_word:
     display.append('_')
 
-stages = ['''
-    +----+
-    |    |
-         |
-         |
-         |
-=============
-''', '''
-    +----+
-    |    |
-    0    |
-         |
-         |
-         |
-=============
-''', '''
-    +----+
-    |    |
-    0    |
-    |    |
-         |
-         |
-=============
-''', '''
-    +----+
-    |    |
-    0    |
-    |\\   |
-         |
-         |
-=============
-''', '''
-    +----+
-    |    |
-    0    |
-   /|\\   |
-         |
-         |
-=============
-''', '''
-    +----+
-    |    |
-    0    |
-   /|\\   |
-   /     |
-         |
-=============
-''', '''
-    +----+
-    |    |
-    0    |
-   /|\\   |
-   / \\   |
-         |
-=============
-''']
 live = 0
 win = True
 chance = len(stages)
+print(logo)
 
 while True:
     print(stages[live])
