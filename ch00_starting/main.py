@@ -50,4 +50,4 @@ Java에서의 scanner와 유사한 기능
 name2 = input('이름을 입력하세요 >>> ')
 print(name2)
 age2 = input('나이를 입력하세요 >>> ')
-print(type(age2))
+print(type  (age2))

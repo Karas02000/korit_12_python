@@ -279,14 +279,14 @@ elif month_int in [ 1, 3, 5, 7, 8, 10, 12 ]:
 조사된 수학여행지는 {'제주', '민속촌'}입니다.
 조사된 수학여행지는 ['제주', '민속촌']입니다.
 '''
-field_trip_set = set()
-num_of_students = 3
-for _ in range(num_of_students):
-    student = input('희망하는 수학여행지를 입력하세요 >>> ')
-    field_trip_set.add(student)
-
-print(f'조사된 수학여행지는 {field_trip_set}입니다.')
-print(f'조사된 수학여행지는 {list(field_trip_set)}입니다.')
+# field_trip_set = set()
+# num_of_students = 3
+# for _ in range(num_of_students):
+#     student = input('희망하는 수학여행지를 입력하세요 >>> ')
+#     field_trip_set.add(student)
+#
+# print(f'조사된 수학여행지는 {field_trip_set}입니다.')
+# print(f'조사된 수학여행지는 {list(field_trip_set)}입니다.')
 '''
 
 짝수만 추출하기
@@ -372,29 +372,47 @@ add_numbers3(10, hello)를 호출하면
 라는 결과값을 만드는 함수를 정의한다면 어떻게 할 수 있을지 고민해보세요.
 '''
 
-call_info_dict = dict()
+# call_info_dict = dict()
+#
+# for i in range(1,4):
+#     key = input(f'{i} 번째 사람의 이름의 입력하세요 >>> ')
+#     value = input(f'{i} 번째 사람의 연락처를 입력하세요 >>> ')
+#     call_info_dict[key] = value
+#
+# print(f'입력 받은 연락처는 {call_info_dict}입니다.')
 
-for i in range(1,4):
-    key = input(f'{i} 번째 사람의 이름의 입력하세요 >>> ')
-    value = input(f'{i} 번째 사람의 연락처를 입력하세요 >>> ')
-    call_info_dict[key] = value
-
-print(f'입력 받은 연락처는 {call_info_dict}입니다.')
 
 
+# last_num=int(input('숫자 몇 까지 입력하시겠습니까? >>> '))
+#
+#
+# def add_numbers1(n):
+#     numbers1 = []
+#     for i1 in range(1,n+1):
+#         numbers1.append(i1)
+#     print(numbers1)
+# def add_numbers2(n):
+#     numbers2 = []
+#     for i2 in range(1,n+1):
+#         numbers2.append(i2)
+#     return numbers2
+# def add_numbers3(n, list):
+#     result_list = []
+#     for i3 in range(1,n+1):
+#         result_list.append(i3)
+#     result_list += list
+#     print(result_list)
+#
+# add_numbers1(last_num)          # call2() 유형
+# print(add_numbers2(last_num))   # call4() 유형
+# hello = ['안','녕','하','세','요']
+# add_numbers3(last_num, hello)
 
-last_num=int(input('숫자 몇 까지 입력하시겠습니까? >>> '))
-
-def add_numbers1(n):
-    numbers1 = []
-    for i1 in range(1,n+1):
-        numbers1.append(i1)
-    print(numbers1)
-def add_numbers2(n):
-    numbers2 = []
-    for i2 in range(1,n+1):
-        numbers2.append(i2)
-    return numbers2
-
-add_numbers1(last_num)          # call2() 유형
-print(add_numbers2(last_num))   # call4() 유형
+def count_even_odd(numbers):
+    even_odd = [0,0]
+    for number in numbers:
+        even_odd[number % 2] += 1
+    print(f'짝수의 개수 : {even_odd[0]}')
+    print(f'홀수의 개수 : {even_odd[1]}')
+list1 = [1,2,3,4,5,6,7,8,9,10]
+count_even_odd(list1)
