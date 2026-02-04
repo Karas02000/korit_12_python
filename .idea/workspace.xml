@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de949d78-7c3a-4d3b-be01-393f91bd3727" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/ch11_inheritance/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10_coffee_machine_oop/coffee_maker.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/coffee_maker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10_coffee_machine_oop/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch10_coffee_machine_oop/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11_inheritance/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch11_inheritance/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning logs/20260203.md" beforeDir="false" afterPath="$PROJECT_DIR$/learning logs/20260203.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning logs/20260204.md" beforeDir="false" afterPath="$PROJECT_DIR$/learning logs/20260204.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
