@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de949d78-7c3a-4d3b-be01-393f91bd3727" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/coffee_maker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/money_machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11_inheritance/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10_coffee_machine_oop/coffee_maker.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/coffee_maker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10_coffee_machine_oop/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10_coffee_machine_oop/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch10_coffee_machine_oop/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
     "Python.hangman8.executor": "Run",
     "Python.hangman9.executor": "Run",
     "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
     "Python.main.executor": "Run",
     "Python.main2.executor": "Run",
     "Python.main_while.executor": "Run",
@@ -67,7 +67,7 @@
       <recent name="C:\Users\Owner\Desktop\Projects\Python\korit_12_python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager">
     <configuration name="hangman1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="korit_12_python" />
       <option name="ENV_FILES" value="" />
@@ -106,6 +106,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch10_coffee_machine_oop/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="korit_12_python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch11_inheritance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch11_inheritance/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,6 +185,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main2" />
         <item itemvalue="Python.hangman1" />

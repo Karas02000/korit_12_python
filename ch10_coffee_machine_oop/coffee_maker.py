@@ -26,4 +26,4 @@ class CoffeeMaker:
         """필요한 재료를 자원에서 차감합니다."""
         for item in order.ingredients:
             self.resources[item] -= order.ingredients[item]
-        print(f"여기 {order.이름} ☕️입니다. 맛있게 드세요!")
+        print(f"여기 {order.name} ☕️입니다. 맛있게 드세요!")
